@@ -1,0 +1,84 @@
+/*базовые стили*/
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    /*ibherit- наследовать от родителя*/
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*стили проекта*/
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(../img/Travel\ Time.png) no-repeat center/cover;
+    min-height: 100vh;
+    padding-top: 72px;
+    display: flex;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.nav_list {
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+}
+
+.nav_link {
+    font-family: "Popins";
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff0f0;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    text-decoration: underline 2px solid rgb(158, 155, 155);
+    text-underline-offset: 6px;
+}
+
+.header {
+    background-color: rgb(75, 4, 18);
+}
+
+.hero_main {
+    background-color: rgba(119, 0, 255, 0.295);
+    flex: 1;
+}
